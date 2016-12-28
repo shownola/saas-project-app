@@ -18,6 +18,9 @@ Rails.application.configure do
     :enable_starttls_auto => true
   }
 
+
+ config.web_console.whitelisted_ips = '71.223.58.61'
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on

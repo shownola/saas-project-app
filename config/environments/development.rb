@@ -20,6 +20,7 @@ Rails.application.configure do
 
 
  config.web_console.whitelisted_ips = '71.223.58.61'
+ config.web_console.whitelisted_ips = '184.98.188.155'
 
   # Settings specified here will take precedence over those in config/application.rb.
 
